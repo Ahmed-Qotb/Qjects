@@ -75,39 +75,53 @@
 /* ? custom styling */
 
 :root {
-  --main-color-dark: #000000b7;
-  --main-color-light: #121212       ;
-  --secondry-color: #b3b3b3         ;
+  --main-color-dark: #000000ad;
+  --main-color-light: #121212;
+  --secondry-color: #b3b3b3;
+  --orange-color: #FF7517
 }
 
 /* background colors */
-.main-color-dark-bg{
+.main-color-dark-bg {
   background-color: var(--main-color-dark);
 }
 
-.main-color-light-bg{
+.bg-gradiant {
+  background-color: var(--main-color-dark);
+
+}
+
+.main-color-light-bg {
   background-color: var(--main-color-light);
 }
 
-.secondry-color-bg{
+.secondry-color-bg {
   background-color: var(--secondry-color);
 }
 
 /* text colors */
-.main-color-dark-text{
+.main-color-dark-text {
   color: var(--main-color-dark);
 }
 
-.main-color-light-text{
+.main-color-light-text {
   color: var(--main-color-light);
 }
 
-.secondry-color-text{
+.secondry-color-text {
   color: var(--secondry-color);
 }
 
+.extra-color-text {
+  color: var(--orange-color);
+}
+
+.extra-color-bg {
+  background-color: var(--orange-color);
+}
+
 /* body default color */
-body{
+body {
   background-color: var(--main-color-light);
   color: var(--secondry-color);
 }

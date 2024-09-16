@@ -8,6 +8,9 @@ const mainFont = Urbanist({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Qjects",
   description: "a portflio wepsite for a fullstack web developer",
+  icons: {
+    icon: "/favicon3.png",
+  },
 };
 
 export default function RootLayout({
