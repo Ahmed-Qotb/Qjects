@@ -23,21 +23,21 @@ function footer() {
   ];
 
   return (
-    <footer className="main-color-dark-bg py-5">
-      <div className="container flex justify-center sm:gap-5 flex-wrap sm:flex-nowrap">
+    <footer className="bg-black py-5 sm:py-0 sm:pb-7">
+      <div className="container flex justify-center sm:items-center sm:gap-5 flex-wrap sm:flex-nowrap">
         {/* socials */}
         <div className="w-[50%] text-center">
           <h3 className="font-extrabold text-white text-xl">Social Links</h3>
           <ul className="flex justify-center items-center gap-4 py-5">
             {/* linked in */}
             <li>
-              <Link href={`https://www.linkedin.com/in/ahmed-qotb-043850296/`}>
+              <Link target="_blank" href={`https://www.linkedin.com/in/ahmed-qotb-043850296/`}>
                 <SiLinkedin className="bg-black " color="white" />
               </Link>
             </li>
             {/* github */}
             <li>
-              <Link href={`https://github.com/Ahmed-Qotb`}>
+              <Link target="_blank" href={`https://github.com/Ahmed-Qotb`}>
                 <SiGithub
                   className="bg-black hover:text-[#FF7517]"
                   color="white"
@@ -46,7 +46,7 @@ function footer() {
             </li>
             {/* gmail email to */}
             <li>
-              <Link href={"mailto:ahmedhassan99fg@gmail.com"}>
+              <Link target="_blank" href={"mailto:ahmedhassan99fg@gmail.com"}>
                 <SiGmail className="bg-black" color="white" />
               </Link>
             </li>
@@ -55,7 +55,7 @@ function footer() {
         {/* important links */}
         <div className="w-[50%]  text-center">
           <h3 className="font-extrabold text-white text-xl">Quick Links</h3>
-          <ul className="flex flex-col items-center">
+          <ul className="flex flex-col item">
           {navLinks.map(
               (link: { href: string; label: string }, index: number) => (
                 <li className="">

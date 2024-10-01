@@ -88,7 +88,7 @@ function navBar() {
             </button>
             {navState && (
               <ul
-                className={` transition-all duration-1000 delay-75 ease-in-out flex flex-col gap-4 justify-center bg-[#000000ad] content-center absolute right-4 p-5 rounded-lg border-[2px] border-[#FF7517] w-[40%]`}
+                className={` transition-all duration-1000 delay-75 ease-in-out flex flex-col gap-4 justify-center bg-[#000000ec] content-center absolute right-4 p-5 rounded-lg border-[2px] border-[#FF7517] w-[40%]`}
               >
                 {navLinks.map(
                   (link: { href: string; label: string }, index: number) => (
