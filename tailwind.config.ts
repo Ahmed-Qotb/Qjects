@@ -52,6 +52,11 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        flame:   "#FF7517",
+        silver:  "#b3b3b3",
+        carbon:  "#121212",
+        pitch:   "#000000f3",
+        overlay: "#000000ec",
       },
       borderRadius: {
         lg: "var(--radius)",

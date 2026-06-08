@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
 import { Urbanist } from "next/font/google";
 import "./styles/globals.css";
-import NavBar from "../components/navbar/navBar";
-import Footer from "@/components/footer/page";
-import HeadingTitle from "@/components/header title/page";
+import Navbar from "@/components/common/navbar";
+import Footer from "@/components/common/footer";
+import PageHeading from "@/components/common/page-heading";
+
 const mainFont = Urbanist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Qjects",
-  description: "a portflio wepsite for a fullstack web developer",
+  description: "A portfolio website for a fullstack web developer",
   icons: {
     icon: "/favicon3.png",
   },
@@ -22,8 +23,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={mainFont.className}>
-        <NavBar />
-        <HeadingTitle/>
+        <Navbar />
+        <PageHeading />
         {children}
         <Footer />
       </body>
