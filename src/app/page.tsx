@@ -24,7 +24,7 @@ export default function Home() {
         {/* download cv button */}
         <div className="pb-10 flex justify-center items-center">
           <a
-            href="/ahmed qotb cv.pdf"
+            href="/ahmed qotb 1 page cv.pdf"
             download
             className="border-2 border-silver p-2 px-5 rounded-lg bg-black font-bold hover:border-flame hover:bg-white hover:text-[black] ease-in-out duration-300"
           >
